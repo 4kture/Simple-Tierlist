@@ -1,1 +1,1 @@
-# cpvp.ru-Site
+# SimpleTierlist
