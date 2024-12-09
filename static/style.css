@@ -143,6 +143,39 @@ footer#creators {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6), 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
+.tier-list {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2a2a2a;
+    margin-top: 20px;
+}
+
+.tier-list th, .tier-list td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+.tier-list th {
+    background-color: #333;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.tier-list td {
+    color: #fff;
+}
+
+.high-tier {
+    background-color: #3a3a3a;
+    border-left: 4px solid #ff4500;
+}
+
+.low-tier {
+    background-color: #2a2a2a;
+    border-left: 4px solid #32cd32;
+}
+
 /* Иконки */
 
 .icon-overall {
