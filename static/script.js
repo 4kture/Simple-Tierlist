@@ -6,133 +6,126 @@ document.addEventListener('DOMContentLoaded', function () {
     const tierListData = {
         Vanilla: {
             1: [
-                { name: "FourTure", status: "high" },
-                { name: "s1ben", status: "low" },
-
+                { name: "FourTure", status: "high", region: "ВСНГ" },
+                { name: "s1ben", status: "low", region: "ЗСНГ" },
             ],
             2: [
-                { name: "Bennifit", status: "high" },
-                { name: "blqnki0", status: "high" },
-                { name: "stefypog", status: "low" },
+                { name: "Bennifit", status: "high", region: "ВСНГ" },
+                { name: "blqnki0", status: "high", region: "ЗСНГ" },
+                { name: "stefypog", status: "low", region: "ВСНГ" },
             ],
             3: [
-                { name: "AviKgolD1", status: "high" },
-                { name: "Shtyrlitz", status: "low" },
+                { name: "AviKgolD1", status: "high", region: "ЗСНГ" },
+                { name: "Shtyrlitz", status: "low", region: "ВСНГ" },
             ],
             4: [
-                { name: "хз чесна", status: "low" },
+                { name: "хз чесна", status: "low", region: "ЗСНГ" },
             ],
             5: [
-                { name: "SlaveWs", status: "low" },
-                { name: "RunishYT", status: "low" },
+                { name: "SlaveWs", status: "low", region: "ВСНГ" },
+                { name: "RunishYT", status: "low", region: "ЗСНГ" },
             ],
         },
-
         Sword: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ВСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ЗСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ВСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ЗСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ВСНГ" },
             ],
         },
-
         NethiritePot: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ЗСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ВСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ЗСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ВСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ЗСНГ" },
             ],
         },
-
         UHC: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ВСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ЗСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ВСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ЗСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ВСНГ" },
             ],
         },
-
         SMP: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ВСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ЗСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ВСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ЗСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ВСНГ" },
             ],
         },
-
         Retired: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ЗСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ВСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ЗСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ЗСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ЗСНГ" },
             ],
         },
-
         Blacklist: {
             1: [
-                { name: "Я", status: "high" },
+                { name: "Я", status: "high", region: "ЗСНГ" },
             ],
             2: [
-                { name: "не знаю", status: "low" },
+                { name: "не знаю", status: "low", region: "ВСНГ" },
             ],
             3: [
-                { name: "что", status: "high" },
+                { name: "что", status: "high", region: "ЗСНГ" },
             ],
             4: [
-                { name: "тут", status: "low" },
+                { name: "тут", status: "low", region: "ВСНГ" },
             ],
             5: [
-                { name: "писать", status: "high" },
+                { name: "писать", status: "high", region: "ЗСНГ" },
             ],
         },
     };
@@ -153,7 +146,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (data[tier] && data[tier][i]) {
                     const player = data[tier][i];
                     const tierClass = player.status === 'high' ? 'high-tier' : 'low-tier';
-                    html += `<td class="${tierClass}">${player.name}</td>`;
+                    html += `
+                        <td class="interactive ${tierClass}" data-player="${player.name}" data-status="${player.status}">
+                            <div class="region-box">${player.region}</div>
+                            ${player.name}
+                        </td>`;
                 } else {
                     html += '<td></td>';
                 }
@@ -163,6 +160,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
         html += '</table>';
         return html;
+    }
+
+    function addTableCellClickHandlers() {
+        const tableCells = document.querySelectorAll('.tier-list .interactive');
+        tableCells.forEach(cell => {
+            cell.addEventListener('click', function () {
+                const playerName = this.dataset.player;
+                const playerStatus = this.dataset.status;
+                alert(`Вы нажали на игрока: ${playerName}, статус: ${playerStatus}`);
+            });
+        });
     }
 
     categoryButtons.forEach(button => {
@@ -177,17 +185,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h2>${category} Tier List</h2>
                 ${createTierList(categoryData)}
             `;
+
+            addTableCellClickHandlers();
         });
     });
 
-    searchInput.addEventListener('input', function () {
-        const searchTerm = this.value.toLowerCase();
-        console.log(`Searching for: ${searchTerm}`);
-    });
-
-    const initialCategory = categoryButtons[0].dataset.category;
-    contentArea.innerHTML = `
-        <h2>${initialCategory} Tier List</h2>
-        ${createTierList(tierListData[initialCategory])}
-    `;
+    categoryButtons[0].click();
 });
